@@ -1,3 +1,7 @@
+.navLinks.active{
+    color: #1ABC9C;
+}
+
 .homeContainer    
 {
     display: flex;

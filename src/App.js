@@ -4,21 +4,24 @@ import Contact from "./components/homePageComponent/contact/Contact";
 import AboutPage from "./page/AboutPage";
 import Header from "./components/homePageComponent/heder/Heder";
 import Footer from "./components/homePageComponent/footer/Footer";
-import {BrowserRouter as Router,Routes,Route  } from "react-router-dom";
+import {BrowserRouter ,Routes,Route  } from "react-router-dom";
 
 
 function App() {
   return (
-    <Router >
+    <BrowserRouter >
     <Header/>
 <Routes>
   <Route path="/" element={<Home />} />
   <Route path="/home" element={<Home />} />
   <Route path="/about" element={<AboutPage />} />
   <Route path="/contact" element={<Contact />} />
+  <Route path="/service" element={<Home />} />
+  <Route path="/solution" element={<Home />} />
+  <Route path="/career" element={<Home />} />
 </Routes>
      <Footer/>
-    </Router>
+    </BrowserRouter>
   );
 }
 

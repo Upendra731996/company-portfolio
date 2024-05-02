@@ -64,3 +64,9 @@ padding: 3vw;
     margin: 1vw;
     padding-top: vw;
 }
+
+.box button:hover{
+    background-color: #EEEEEE;
+    color: black;
+    cursor: pointer;
+}

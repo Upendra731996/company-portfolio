@@ -8,7 +8,7 @@ function Header() {
     <div  >
      <div className='homeContainer'>
     <div>
-    <img src="logo2.png"    className='homeLogo'/>
+    <img src="logo2.png"    className='homeLogo'  alt='img'/>
     </div>
     
    
@@ -16,9 +16,9 @@ function Header() {
      <div className='homeLinkContainer'>
       <NavLink className="navLinks" to="/home">HOME</NavLink>
       <NavLink className="navLinks" to="/about">ABOUT</NavLink>
-      <NavLink className="navLinks" to="/home">SERVICE</NavLink>
-      <NavLink className="navLinks" to="/home">OUR SOLUTION</NavLink>
-      <NavLink className="navLinks" to="/home">CAREER</NavLink>
+      <NavLink className="navLinks" to="/service">SERVICE</NavLink>
+      <NavLink className="navLinks" to="/solution">OUR SOLUTION</NavLink>
+      <NavLink className="navLinks" to="/career">CAREER</NavLink>
       <NavLink className="navLinks" to="/contact">CONTACT US</NavLink>
      </div>
      </div>

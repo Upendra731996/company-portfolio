@@ -11,7 +11,7 @@ const Footer = () => {
   return (
     <div className='footerContainer'>
     <div>
-        <img src='logo2.png'/>
+        <img src='logo2.png' alt='img'/>
         <div>Copyrights © 2024 All Rights Reserved by Royal Trade Zone.</div>
     </div>
     <div >
