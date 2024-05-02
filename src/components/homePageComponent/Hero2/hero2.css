@@ -1,0 +1,66 @@
+.midLogo{
+    height: 7vw;
+    width: 9vw;
+}
+
+.textContent{
+    display: flex;
+    flex-direction: column;
+    /* justify-content:center; */
+align-items: center;
+}
+
+.BTNLinks{
+    display: flex;
+    width: 30vw;
+    margin-left:10vw ;
+    margin-right: 15vw;
+    justify-content: space-evenly;
+   
+}
+
+.aboutUs{
+    display: flex;
+    flex-direction: column;
+   margin-top:5vw;
+   margin-bottom: 2vw;
+align-items: center;
+}
+
+.mainBox{
+    display: flex;
+    color: #EEEEEE;
+    font:14px ,Lato,sans-serif;
+  /* text-align: start; */
+  /* text-align: start; */
+
+    
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    /* justify-content:center; */
+/* align-items: center; */
+padding: 3vw;
+}
+
+.box button{
+
+    /* margin: 2vw; */
+ 
+    padding: .7vw 0vw .7vw 0vw;
+    font-weight: bold;
+    background-color: transparent;
+    border: 2px solid white;
+    color: #EEEEEE;
+
+}
+.buttonLinks{
+    text-decoration: none;
+  
+    /* color:white ; */
+    border: 1px solid black;
+    margin: 1vw;
+    padding-top: vw;
+}

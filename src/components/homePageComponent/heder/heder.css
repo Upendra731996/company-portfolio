@@ -1,0 +1,31 @@
+.homeContainer    
+{
+    display: flex;
+    justify-content:space-between;
+    box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.5);
+}
+.homeLinkContainer{
+    width: 40vw;
+    height: 10vh;
+display: flex;
+justify-content:space-between ;
+align-items: center;
+margin: 1.5vw;
+
+
+
+}
+
+.homeLogo{
+   height: 8vw;
+   width: 8vw;
+}
+
+.navLinks{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.6);
+    font-weight: 700;
+}
+.navLinks:hover{
+    color:#1ABC9C;
+}

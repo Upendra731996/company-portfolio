@@ -1,0 +1,27 @@
+.aboutMainContainer{
+    /* display: flex; */
+    justify-content: space-between;
+    align-items: start;
+    flex-direction: column;
+    padding-left: 13vw;
+    color: rgba(0, 0, 0, 0.7);
+}
+.details{
+ display: flex;
+ 
+ 
+ justify-content: space-between;
+ padding-right: 5vw;
+ margin-top: 4vw;
+}
+.adress h2{
+    color:#1ABC9C;
+    font-weight: 500;
+    
+}
+.contact{
+    color: rgba(0, 0, 0, 0.6);
+}
+
+
+

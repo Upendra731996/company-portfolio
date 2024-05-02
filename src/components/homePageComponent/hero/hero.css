@@ -1,0 +1,85 @@
+.slider img{
+   width: 100vw;
+   height: 70vh;
+}
+
+
+
+.slick-prev,
+.slick-next {
+  /* background-color: rgb(255, 255, 255) !important; */
+  background: transparent;
+  overflow: hidden;
+  z-index: 10;
+  position: absolute;
+  box-shadow: 0px 8px 13px -3px rgba(0, 0, 0, 0.07);
+}
+
+.slick-prev {
+  transform: translate(+0.5rem, -2.5rem);
+}
+.slick-next {
+  transform: translate(-0.5rem, -2.5rem);
+}
+
+
+
+.slick-prev:before {
+  content: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxZW0iIGhlaWdodD0iMWVtIiB2aWV3Qm94PSIwIDAgMTAyNCAxMDI0Ij48cGF0aCBmaWxsPSJjdXJyZW50Q29sb3IiIGQ9Ik02ODUuMjQ4IDEwNC43MDRhNjQgNjQgMCAwIDEgMCA5MC40OTZMMzY4LjQ0OCA1MTJsMzE2LjggMzE2LjhhNjQgNjQgMCAwIDEtOTAuNDk2IDkwLjQ5NkwyMzIuNzA0IDU1Ny4yNDhhNjQgNjQgMCAwIDEgMC05MC40OTZsMzYyLjA0OC0zNjIuMDQ4YTY0IDY0IDAgMCAxIDkwLjQ5NiAwIi8+PC9zdmc+");
+  background-color: transparent;
+  display: block;
+  scale: 2;
+  position: relative;
+  top: -50%;
+  left: -50%;
+  transform: translate(25%, 52.5%);
+}
+
+.slick-next::before {
+  content: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxZW0iIGhlaWdodD0iMWVtIiB2aWV3Qm94PSIwIDAgMTAyNCAxMDI0Ij48cGF0aCBmaWxsPSJjdXJyZW50Q29sb3IiIGQ9Ik0zMzguNzUyIDEwNC43MDRhNjQgNjQgMCAwIDAgMCA5MC40OTZsMzE2LjggMzE2LjhsLTMxNi44IDMxNi44YTY0IDY0IDAgMCAwIDkwLjQ5NiA5MC40OTZsMzYyLjA0OC0zNjIuMDQ4YTY0IDY0IDAgMCAwIDAtOTAuNDk2TDQyOS4yNDggMTA0LjcwNGE2NCA2NCAwIDAgMC05MC40OTYgMCIvPjwvc3ZnPg==");
+  background-color: transparent;
+  /* height: 80%; */
+  display: block;
+  scale: 2;
+  position: relative;
+  top: -50%;
+  left: -50%;
+  transform: translate(25%, 52.5%);
+}
+
+.slick-arrow {
+  width: 3rem;
+  height: 3rem;
+  /* border-radius:50%; */
+
+}
+
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.text-overlay {
+  background-color: transparent;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #EEEEEE; /* Adjust text color */
+  font-size: 90px; /* Adjust text size */
+  bottom: 0;
+  font-weight: bold; /*Text weight*/
+  animation: riseText 3s forwards; /* Animation */
+  opacity: 0; /* Initially hidden */
+
+}
+@keyframes riseText {
+  0% {
+    bottom: 100px; /* Start position */
+    opacity: 0;
+  }
+  100% {
+    bottom: -50px; /* End position */
+    opacity: 1;
+  }
+}
