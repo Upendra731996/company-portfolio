@@ -5,6 +5,7 @@ import About from '../components/homePageComponent/about/About'
  function AboutPage() {
   return (
     <div>
+      <h2>this one about page</h2>
         <About/>
     </div>
   )
