@@ -7,8 +7,11 @@ import About from '../components/homePageComponent/about/About'
     <div>
       <div>jhjvff</div>
       <h2>this one about page</h2>
+
       <di>hi</di>
       <div>this is testing</div>
+
+
         <About/>
     </div>
   )
