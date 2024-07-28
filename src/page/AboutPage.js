@@ -10,7 +10,7 @@ import About from '../components/homePageComponent/about/About'
 
       <di>hi</di>
       <div>this is testing</div>
-
+<div>my ame upenm,dbgfd<div/>
 
         <About/>
     </div>
